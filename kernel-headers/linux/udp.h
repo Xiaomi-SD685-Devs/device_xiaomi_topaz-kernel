@@ -5,7 +5,7 @@
  *		interface as the means of communication with the user level.
  *
  *		Definitions for the UDP protocol.
- *
+/ *
  * Version:	@(#)udp.h	1.0.2	04/28/93
  *
  * Author:	Fred N. van Kempen, <waltje@uWalt.NL.Mugnet.ORG>
@@ -19,13 +19,6 @@
 #define _LINUX_UDP_H
 
 #include <linux/types.h>
-
-struct udphdr {
-	__be16	source;
-	__be16	dest;
-	__be16	len;
-	__sum16	check;
-};
 
 /* UDP socket options */
 #define UDP_CORK	1	/* Never send partially complete segments */
