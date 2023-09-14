@@ -1,0 +1,9 @@
+# Soft dependencies extracted from modules themselves.
+softdep goodix_fp pre: fpc1020_platform_tee
+softdep soc_sleep_stats pre: smem
+softdep nopmi_chg pre: bq2589x_charger sm5602_fg 
+softdep qmi_helpers pre: qrtr
+softdep smem pre: qcom_hwspinlock
+softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-ssusb-qmp eud
+softdep pinctrl_msm pre: qcom-pdc
+softdep leds_qti_tri_led pre: pwm-qti-lpg
