@@ -4,6 +4,7 @@ kernel/lib/xz/xz_dec.ko
 kernel/arch/arm64/kvm/kvm.ko
 kernel/arch/arm64/crypto/sha2-ce.ko
 kernel/arch/arm64/crypto/sha512-ce.ko
+kernel/arch/arm64/crypto/ghash-ce.ko
 kernel/arch/arm64/crypto/polyval-ce.ko
 kernel/arch/arm64/crypto/aes-ce-cipher.ko
 kernel/arch/arm64/crypto/aes-glue-ce.ko
