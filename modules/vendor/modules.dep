@@ -1,5 +1,6 @@
 /vendor/lib/modules/qcom_pm8008-regulator.ko:
 /vendor/lib/modules/audio_prm_dlkm.ko: /vendor/lib/modules/spf_core_dlkm.ko /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko
+/vendor/lib/modules/millet_pkg.ko: /vendor/lib/modules/millet_core.ko
 /vendor/lib/modules/goodix_fp.ko:
 /vendor/lib/modules/qce50_dlkm.ko: /vendor/lib/modules/sps_drv.ko
 /vendor/lib/modules/soc_sleep_stats.ko:
@@ -67,6 +68,7 @@
 /vendor/lib/modules/reboot-mode.ko:
 /vendor/lib/modules/cx_ipeak_cdev.ko:
 /vendor/lib/modules/qcom_lpm.ko:
+/vendor/lib/modules/millet_hs.ko: /vendor/lib/modules/millet_core.ko
 /vendor/lib/modules/gpr_dlkm.ko: /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko
 /vendor/lib/modules/serial_num.ko:
 /vendor/lib/modules/msm_performance.ko:
@@ -88,6 +90,8 @@
 /vendor/lib/modules/camera.ko: /vendor/lib/modules/cx_ipeak.ko /vendor/lib/modules/leds-qti-flash.ko /vendor/lib/modules/qti_battery_charger.ko /vendor/lib/modules/panel_event_notifier.ko /vendor/lib/modules/pmic_glink.ko
 /vendor/lib/modules/core_hang_detect.ko:
 /vendor/lib/modules/qpnp-pdphy.ko:
+/vendor/lib/modules/millet_oem_cgroup.ko:
+/vendor/lib/modules/millet_sig.ko: /vendor/lib/modules/millet_core.ko
 /vendor/lib/modules/stm_nfc_i2c.ko:
 /vendor/lib/modules/usb_f_ccid.ko:
 /vendor/lib/modules/qcom-dcvs.ko:
@@ -137,6 +141,7 @@
 /vendor/lib/modules/batt-ds28e16.ko: /vendor/lib/modules/onewire_gpio.ko
 /vendor/lib/modules/qcom_va_minidump.ko:
 /vendor/lib/modules/snd_event_dlkm.ko:
+/vendor/lib/modules/millet_core.ko:
 /vendor/lib/modules/leds-gpio.ko:
 /vendor/lib/modules/phy-qcom-ufs-qmp-v4.ko:
 /vendor/lib/modules/qti_qmi_sensor.ko:
@@ -148,6 +153,7 @@
 /vendor/lib/modules/cfg80211.ko:
 /vendor/lib/modules/snd-usb-audio-qmi.ko:
 /vendor/lib/modules/lct_tp.ko:
+/vendor/lib/modules/binder_gki.ko:
 /vendor/lib/modules/qti_cpufreq_cdev.ko:
 /vendor/lib/modules/bcl_soc.ko:
 /vendor/lib/modules/spf_core_dlkm.ko: /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko
@@ -155,6 +161,7 @@
 /vendor/lib/modules/pinctrl-spmi-gpio.ko:
 /vendor/lib/modules/rtc-pm8xxx.ko:
 /vendor/lib/modules/coresight-stm.ko: /vendor/lib/modules/coresight.ko /vendor/lib/modules/stm_core.ko
+/vendor/lib/modules/millet_binder.ko: /vendor/lib/modules/binder_gki.ko /vendor/lib/modules/millet_core.ko
 /vendor/lib/modules/coresight-hwevent.ko: /vendor/lib/modules/coresight-csr.ko /vendor/lib/modules/coresight.ko
 /vendor/lib/modules/qcom-cpufreq-hw-debug.ko:
 /vendor/lib/modules/dwc3-msm.ko:

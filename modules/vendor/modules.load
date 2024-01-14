@@ -228,3 +228,10 @@ cnss_prealloc.ko
 cnss_utils.ko
 icnss2.ko
 msm_kgsl.ko
+binder_gki.ko
+millet_binder.ko
+millet_core.ko
+millet_hs.ko
+millet_oem_cgroup.ko
+millet_pkg.ko
+millet_sig.ko
